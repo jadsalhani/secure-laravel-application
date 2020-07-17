@@ -2,11 +2,8 @@
 
 namespace App\Traits;
 
-use Illuminate\Foundation\Auth\ThrottlesRequests;
-
 trait AuthenticateWithJWT
 {
-    use ThrottlesRequests;
     /**
      * Get a JWT via given credentials.
      *
